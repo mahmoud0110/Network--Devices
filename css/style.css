@@ -1,0 +1,258 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+	padding: 0px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+    color: #323232;
+    background-color: #cccccc;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-top: 0px;
+	}
+}
+
+a.btn-primary {
+	background-color: #1273eb;
+	border-color: #1273eb;
+}
+
+a.btn-primary:hover {
+	background-color: #323232;
+	border-color: #323232;
+}
+
+button.btn-primary {
+	background-color: #1273eb;
+	border-color: #1273eb;
+}
+
+button.btn-primary:hover {
+	background-color: #323232;
+	border-color: #323232;
+}
+
+a.btn-secondary {
+	background-color: #1273eb;
+	border-color: #1273eb;
+}
+
+a.btn-secondary:hover {
+	background-color: #323232;
+	border-color: #323232;
+}
+
+button.btn-secondary {
+	background-color: #1273eb;
+	border-color: #1273eb;
+}
+
+button.btn-secondary:hover {
+	background-color: #323232;
+	border-color: #323232;
+}
+
+.top-bar {
+	background: #000;
+	padding: 4px 0px;
+}
+
+.social-media ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.social-media ul li {
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+.social-media ul li a {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.social-media ul li a:hover {
+	color: #1273eb;
+}
+
+.contact-details ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+.contact-details ul li {
+	display: inline-block;
+	padding: 0px 5px;
+	color: #ffffff;
+}
+
+.wrapper-main {
+	position: relative;
+	overflow: hidden;
+}
+
+.top-nav {
+	color: #fff !important;
+}
+
+.top-nav .top-nav-logo {
+	color: #fff;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .nav-link {
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .nav-link i {
+	font-size: 14px;
+	float: right;
+	margin-left: 5px;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .nav-link:hover {
+	color: #aaa;
+	border-radius: 4.8px;
+	font-weight: bold;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .nav-link.active {
+	color: #fff;
+}
+
+.fixed-menu {
+	position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	left: 0px;
+	top: 0px;
+	min-height: auto;
+	width: 100%;
+	padding: 0px 0px;
+	background: #ffffff;
+	z-index: 0;
+	-webkit-box-shadow: 0px 13px 15px -12px rgba(35, 35, 35, 0.15);
+	box-shadow: 0px 13px 15px -12px rgba(35, 35, 35, 0.15);
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	z-index: 999;
+	opacity: 1;
+	visibility: visible;
+	-ms-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-op-animation-name: fadeInDown;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-ms-animation-duration: 500ms;
+	-moz-animation-duration: 500ms;
+	-op-animation-duration: 500ms;
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms;
+	-ms-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-op-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-ms-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-op-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+.dropdown-toggle::after {
+	display: none;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu {
+	margin: 0px;
+	box-shadow: 3px 5px 15px rgba(0, 0, 0, .15);
+	border: none;
+	padding: 20px;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item {
+	font-size: 14px;
+	padding: 0px;
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:last-child {
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:hover {
+	background: none;
+	color: #1273eb;
+	font-weight: bold;;
+}
+
+.top-nav .navbar-toggler {
+	color: #323232;
+	border-color: #323232;
+}
+
+.top-nav .navbar-toggler:hover {
+	color: #1273eb;
+	border-color: #1273eb;
+}
+
+.header
+{
+	background-image: url("../img/header.jpg");
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	
+}
+.header .head
+{
+	background-color: rgba(0, 0, 0, .7);
+	height: 700px;
+}
+
+.cars .car
+{
+	width: 300px;
+	height: 350px;
+}
+
+.cars .car img
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 40px;
+}
+
+.image-agent
+{
+	width: 300px;
+	height: 350px;
+}
+.image-agent img
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+.serv
+{
+	width: ;
+}
